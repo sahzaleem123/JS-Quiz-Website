@@ -1,0 +1,55 @@
+<head>
+    <title>Simple Javascript Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Pakistan Quiz</h1>
+            <p>Test your knowledge about <strong>Pakistan</strong></p>
+        </header>
+        <section>
+            <div id="results"></div>
+            <form name="quizForm" onsubmit="return submitAnswers()">
+                <h3>1. What is the meaning of Pakistan?</h3>
+                <input type="radio" name="q1" value="a" id="q1-a">a. Muslim Land<br>
+                <input type="radio" name="q1" value="b" id="q1-b">b. Holy Land<br>
+                <input type="radio" name="q1" value="c" id="q1-c">c. Land of five rivers<br>
+                <input type="radio" name="q1" value="d" id="q1-d">d. Desert<br>
+
+                <h3>2. Who is the first Governor General of Pakistan?</h3>
+                <input type="radio" name="q2" value="a" id="q2-a">a. Mohammed Ali Jinnah<br>
+                <input type="radio" name="q2" value="b" id="q2-b">b. Liaquat Ali Khan<br>
+                <input type="radio" name="q2" value="c" id="q2-c">c. Ayub Khan<br>
+                <input type="radio" name="q2" value="d" id="q2-d">d. Iskander Mirza<br>
+
+                <h3>3. What was the major event of 1971?</h3>
+                <input type="radio" name="q3" value="a" id="q3-a">a. Tashkent Agreement<br>
+                <input type="radio" name="q3" value="b" id="q3-b">b. Explosion of nuclear bomb<br>
+                <input type="radio" name="q3" value="c" id="q3-c">c. Nawaz Sharif became Prime Minister<br>
+                <input type="radio" name="q3" value="d" id="q3-d">d. Bangladesh broke away from Pakistan<br>
+
+                <h3>4. In which year did Pakistan win the Cricket World Cup?</h3>
+                <input type="radio" name="q4" value="a" id="q4-a">a. 1975<br>
+                <input type="radio" name="q4" value="b" id="q4-b">b. 1992<br>
+                <input type="radio" name="q4" value="c" id="q4-c">b. 1987 <br>
+                <input type="radio" name="q4" value="d" id="q4-d">b. 1996<br>
+
+                <h3>5. Which party was in power in North West Frontier Province at the time of independence?</h3>
+                <input type="radio" name="q5" value="a" id="q5-a">a. Muslim League<br>
+                <input type="radio" name="q5" value="b" id="q5-b">b. Justice Party<br>
+                <input type="radio" name="q5" value="c" id="q5-c">c. Communist Party<br>
+                <input type="radio" name="q5" value="d" id="q5-d">d. Congress<br>
+                <br><br>
+                <input type="submit" value="Submit Answers">
+            </form>
+        </section>
+        <footer>
+            <p>Copyright SAHZ &copy; 2015</p>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+
+</body>
